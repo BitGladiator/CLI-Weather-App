@@ -1,23 +1,23 @@
-# 🌤️ CLI Weather App
+#  CLI Weather App
 
 A simple, stylish command-line weather app written in Bash. It fetches real-time weather data for any city using the Tomorrow.io API and displays it with emoji-based summaries.
 
-## 🚀 Features
+##  Features
 
-- 📍 Search weather by city name
-- 🌡️ Displays temperature, humidity, and weather conditions
-- 🧠 Auto-detects coordinates via OpenStreetMap (Nominatim)
-- 🖼️ Emoji-enhanced output
-- ⚙️ Clean Bash script with no external dependencies beyond `jq` and `curl`
+-  Search weather by city name
+-  Displays temperature, humidity, and weather conditions
+-  Auto-detects coordinates via OpenStreetMap (Nominatim)
+-  Emoji-enhanced output
+-  Clean Bash script with no external dependencies beyond `jq` and `curl`
 
-## 🛠️ Requirements
+##  Requirements
 
 - Bash
 - `jq`
 - `curl`
 - A free [Tomorrow.io](https://www.tomorrow.io/) API key
 
-## 🧪 Installation
+##  Installation
 
 1. Clone the repository:
 
@@ -49,15 +49,15 @@ Run the script and enter a city name when prompted:
 Example:
 
 ```
-🌍 Enter city name: London
+ Enter city name: London
 
-📍 Weather in London at 2025-07-08T14:00
-   ⛅  Partly Cloudy
-   🌡️  Temperature: 22.3°C
-   💧 Humidity: 68%
+ Weather in London at 2025-07-08T14:00
+     Partly Cloudy
+     Temperature: 22.3°C
+    Humidity: 68%
 ```
 
-## 🔐 .gitignore Tips
+##  .gitignore Tips
 
 It's best to keep your API key in an `.env` file and add it to `.gitignore`:
 
